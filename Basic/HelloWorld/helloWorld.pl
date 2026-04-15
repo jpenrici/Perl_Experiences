@@ -8,7 +8,17 @@ use feature 'say'; # print + newline
 
 sub main {
 
-    say "Hello, World!";
+    my $name = "World";
+    say "Hello, " . $name . "!";
+
+    {
+        # block
+        my $name = "user";
+        print("Hello, " . $name . "!\n");
+    }
+
+    $name = "guest";
+    print "Hello, $name !\n";
 
     my @args = @_; # capture command line arguments
     if (@args) {
