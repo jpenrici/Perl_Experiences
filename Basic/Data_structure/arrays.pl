@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 # arrays.pl
 
+# Reference: https://www.perltutorial.org/
+
 use warnings;
 use strict;
 use utf8;
