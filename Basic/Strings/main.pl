@@ -1,4 +1,4 @@
-#!/bin/bash/env perl
+#!/usr/bin/perl
 # main.pl
 
 # Reference: https://www.perltutorial.org/
