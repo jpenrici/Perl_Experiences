@@ -1,0 +1,10 @@
+1. Normal case: the word legacy is here.
+2. Case sensitivity: Legacy vs legacy (Should it replace both?).
+3. Regex chars: What if I search for "log[0-1]" or "file.txt"?
+4. Multiple: legacy legacy legacy.
+5. Punctuation: is it "legacy," or "legacy."?
+6. Shell injection test: ; rm important_file ;
+7. Quotes: He said "legacy" is bad.
+8. Single quotes: O'Reilly's legacy.
+9. Spaces:   legacy   (Leading/trailing spaces).
+10. Symbols: @#$%^&*()_+
